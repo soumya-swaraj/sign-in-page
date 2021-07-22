@@ -1,0 +1,73 @@
+* {
+    margin     : 0px;
+    padding    : 0px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align : center;
+    color      : white;
+}
+
+body {
+    height          : 100vh;
+    text-align      : center;
+    background-color: #1d282e;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom : 70px;
+    font-weight   : 300;
+}
+
+.container {
+    border-radius   : 30px;
+    padding         : 70px 40px;
+    width           : 400px;
+    background-color: #181616;
+    margin          : 13vh auto;
+}
+
+.form {
+
+    display         : block;
+    outline         : none;
+    background-color: #18161600;
+}
+
+.form-password,
+.form-text {
+    margin       : 17px auto;
+    border       : 3.5px solid skyblue;
+    height       : 45px;
+    width        : 270px;
+    border-radius: 50px;
+    transition   : 0.4s;
+}
+
+.form-btn {
+    margin       : 0 auto;
+    margin-top   : 33px;
+    height       : 37px;
+    width        : 200px;
+    border       : 3.5px solid #1a5a30;
+    border-radius: 40px;
+}
+
+.form-password:focus,
+.form-text:focus {
+    width : 350px;
+    border: 3.5px solid #1a5a30;
+}
+
+.form-btn:hover {
+    background-color: #1a5a30;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding-top: 50px;
+}
+
+a:hover {
+    color: #60dd8b;
+}
